@@ -1,0 +1,191 @@
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #EEEEEE;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: #EEEEEE;
+}
+
+#nav-bar ul {
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+#nav-bar li {
+    display: inline;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: black;
+    font-family: inherit;
+    text-decoration: none;
+}
+
+#nav-bar img {
+    height: 100%;
+    width: 100%;
+    max-width: 300px;
+    float: left;
+    margin-right: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1280px) {
+    #nav-bar img {
+        margin-right: 20%;
+    }
+
+    #tromb-desc {
+        margin: auto 0px;
+    }
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#form-group {
+    margin: 10px;
+}
+
+#email {
+    width: 250px;
+    padding: 5px;
+}
+
+#submit {
+    background-color: rgb(241, 196, 14);
+    border: none;
+    font-family: inherit;
+    padding: 5px;
+    width: 130px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+#desc {
+    text-align: center;
+    margin: auto 25%;
+}
+
+img {
+    width: 60px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#video {
+    margin: 100px 25%;
+    box-sizing: border-box;
+}
+
+#select-price {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 15%;
+    justify-content: center;
+}
+
+.trombones {
+    width: calc(100%/3);
+    height: 300px;
+    margin: 10px;
+    text-align: center;
+    background-color: #eeeeee;
+    border: 1px solid black;
+}
+
+.trombones h3 {
+    background-color: #DDDDDD;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#dollars {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#tromb-desc {
+    margin: auto 60px;
+    line-height: 2em;
+}
+
+#select {
+    background-color: rgb(241, 196, 14);
+    border: none;
+    font-family: inherit;
+    padding: 5px;
+    width: 130px;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+#select:hover {
+    animation: select 0.5s forwards;
+    cursor: pointer;
+}
+
+@keyframes select {
+    0% {
+        background-color: rgb(241, 196, 14);
+    }
+
+    100% {
+        background-color: rgb(201, 163, 11);
+    }
+}
+
+#footer {   
+    background-color: #DDDDDD;
+    margin: auto 25%;
+    padding-top: 5px;
+    margin-top: -10px;
+}
+
+#footer a {
+    padding: 30px;
+}
+
+#footer p {
+    opacity: 50%;
+    box-sizing: border-box;
+}
+
+a:hover {
+    text-decoration: underline;
+}
